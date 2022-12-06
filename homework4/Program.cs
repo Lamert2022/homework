@@ -10,7 +10,7 @@
 int max = int.MinValue;
 for (int i = 0; i < 3; i++)
 {
-   Console.WriteLine($"Введите число {i + 1}:");
+   Console.Write($"Введите число {i + 1}: ");
     var str = Console.ReadLine();
     int num = Convert.ToInt32(str); 
    if (num > max)  
